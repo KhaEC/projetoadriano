@@ -1,0 +1,177 @@
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: absolute;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #00a2ff;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    display: 10px; 
+    
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+header {
+     display: auto;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #ffffff;
+     padding: 10px 20px;
+     border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+h2{
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+h3{
+    font-family: 'Bubblegum Sans', cursive;
+    padding: 10px;
+}
+
+h4{   
+        background-color: #00b7ff;
+        color: #2f2f2f;
+        padding: 10px;
+        border-radius:none;
+}
+    
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    text-align: center;
+}
+
+.table-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 5px;
+}
+
+.table-date {
+    left: 10%;
+    font-weight: bold;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    background-color: #00aeff;
+    color: white;
+    border: none;
+    font-weight: bold; 
+}
+
+td:last-child {
+    background-color: #bce5f8;
+    border-left: 1px solid black;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid black;
+}
+
+section#tecnologia table {
+    margin: 0 auto; /* Centraliza a tabela */
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #666666;
+    margin: 0;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer .copyright img {
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 5px;
+}
+
+footer .social-links {
+    color: #666666;
+}
+
+footer .social-link {
+    color: #666666;
+    text-decoration: none;
+}
+
+footer .social-link:hover {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.image{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.image figcaption{ 
+    opacity: 0;
+    position: absolute;
+    background: rgba(47, 47, 47);
+    padding: 10px;
+    top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+    color: white;
+}
+
+figure.image figcaption:hover{
+ 
+    opacity: 1;
+    transition: 1s;
+}
